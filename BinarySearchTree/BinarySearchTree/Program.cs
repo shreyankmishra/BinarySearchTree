@@ -22,6 +22,7 @@ namespace BinarySearchTree
             binarySearchTree.Insert(67);
             binarySearchTree.Display();
             Console.WriteLine("Size of BST is : " + binarySearchTree.Size());
+            Console.WriteLine("Element " + binarySearchTree.Search(63) + " found in BST");
         }
     }
 }
